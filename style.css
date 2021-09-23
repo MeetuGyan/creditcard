@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: whitesmoke;
+  color: #fff;
+}
+
+.card {
+  height: 220px;
+  width: 350px;
+  padding: 10px;
+  position: relative;
+  background: #1c5cb4;
+  background: -webkit-linear-gradient(bottom right, #1c5cb4, #ab3030);
+  background: -moz-linear-gradient(bottom right, #1c5cb4, #ab3030);
+  background: linear-gradient(to top left, #1c5cb4, #ab3030);
+
+  box-shadow: 10px 14px 34px 3px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 10px 14px 34px 3px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 10px 14px 34px 3px rgba(0, 0, 0, 0.6);
+}
+
+.card .top .brand h2 {
+  text-align: right;
+  padding: 10px;
+  font-weight: 800;
+}
+
+.card .top .brand .one {
+  height: 50px;
+  width: 70px;
+  position: absolute;
+  top: 60px;
+  left: 220px;
+}
+
+.card .top .brand img {
+  height: 50px;
+  width: 60px;
+  position: absolute;
+  top: 55px;
+  left: 30px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 15px;
+  width: 90%;
+  margin-left: 5px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.bottom h3 {
+  padding-bottom: 9px;
+  text-align: center;
+  letter-spacing: 3px;
+  word-spacing: 6px;
+}
+
+.dark {
+  font-weight: bold;
+  padding-bottom: 3px;
+  letter-spacing: 1px;
+}
+
+.small {
+  font-size: 14px;
+}
